@@ -1,13 +1,13 @@
 // Mixins Here
 
-.custom-btn(@bg-color:@btn-bg-color, @width:25%, @font-color:white){
+.custom-btn(@bg-color:@btn-bg-color, @width:25%, @height:10%, @font-color:white){
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: @bg-color;
     border-radius: 5px;
     width: @width;
-    height: @width*.4;
+    height: @height;
     font-size: 1.5rem;
     color:@font-color;
 }
