@@ -1,8 +1,22 @@
 // Home Content
 
 .home {
+  display: flex;
+  flex-direction: column;
+  
 
   .intro {
+
+    .column();
+    max-width: 100%;
+
+    .earth{
+      max-width: 100%;
+
+      @media @phone{
+        
+      }
+    }
 
     h2 {
       padding: 15px;
@@ -19,11 +33,32 @@
     flex-wrap: wrap;
     width: 100%;
 
+    .sky{
+
+      @media @phone{
+        display:none;
+      }
+
+    }
+
+    .launch{
+
+      @media @phone{
+        display:none;
+      }
+
+    }
+
     img {
       width: 28%;
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+
+      @media @phone{
+        margin: 0;
+        width: 100%;
+      }
     }
   }
 
@@ -45,6 +80,11 @@
     padding: 50px 60px;
     display: flex;
     justify-content: center;
+
+    @media @phone{
+      flex-direction: column-reverse;
+      align-items: center;
+    }
 
     .walk-text {
       width: 50%;
