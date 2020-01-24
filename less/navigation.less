@@ -1,1 +1,29 @@
 // Navigation code here
+
+nav{
+    .column();
+    background-color: @wild-sand;
+    padding: 1% 0;
+
+
+    h1{
+        font-size: 3.6rem;
+    }
+
+    .navBar{
+        display: flex;
+        justify-content: space-between;
+        width: 37%;
+        padding-top: 1%;
+
+        @media @phone{
+            width: 60%;
+        }
+
+        a{
+            text-decoration: none;
+            color: @river-bend;
+        }
+
+    }
+}
