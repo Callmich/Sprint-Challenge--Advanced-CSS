@@ -253,7 +253,7 @@ nav .navBar a {
   flex-wrap: wrap;
   width: 80%;
 }
-@media screen {
+@media ( max-width: 500px ) {
   .home .middleSec .space-images {
     width: 100%;
     padding: 15px;
