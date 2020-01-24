@@ -301,7 +301,7 @@ nav .navBar a {
   display: flex;
   justify-content: center;
 }
-.home .walk {
+.home .walkWalk .walk {
   margin-top: 60px;
   border-top: 1px solid #dee2e6;
   padding: 50px 60px;
@@ -310,27 +310,30 @@ nav .navBar a {
   width: 80%;
 }
 @media ( max-width: 500px ) {
-  .home .walk {
+  .home .walkWalk .walk {
     flex-direction: column-reverse;
     align-items: center;
     width: 100%;
+    padding: 5%;
+    margin-top: 2%;
   }
 }
-.home .walk .walk-text {
+.home .walkWalk .walk .walk-text {
   width: 50%;
 }
 @media ( max-width: 500px ) {
-  .home .walk .walk-text {
+  .home .walkWalk .walk .walk-text {
     width: 100%;
+    margin-top: 2%;
   }
 }
-.home .walk .walk-text h3 {
+.home .walkWalk .walk .walk-text h3 {
   margin-bottom: 10px;
 }
-.home .walk .walk-text p {
+.home .walkWalk .walk .walk-text p {
   margin-bottom: 26px;
 }
-.home .walk .walk-text .btn {
+.home .walkWalk .walk .walk-text .btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -342,25 +345,25 @@ nav .navBar a {
   color: white;
 }
 @media ( max-width: 500px ) {
-  .home .walk .walk-text .btn {
+  .home .walkWalk .walk .walk-text .btn {
     width: 100%;
     height: 75px;
   }
 }
-.home .walk .walk-text .btn:hover {
+.home .walkWalk .walk .walk-text .btn:hover {
   background-color: red;
   color: #454A59;
 }
-.home .walk .walk-text .walk-img {
+.home .walkWalk .walk .walk-img {
   width: 46%;
   margin-left: 4%;
 }
 @media ( max-width: 500px ) {
-  .home .walk .walk-text .walk-img {
+  .home .walkWalk .walk .walk-img {
     width: 100%;
   }
 }
-.home .walk .walk-text .walk-img img {
+.home .walkWalk .walk .walk-img img {
   width: 100%;
   height: auto;
   border-radius: 10px;
