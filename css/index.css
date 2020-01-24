@@ -159,15 +159,6 @@ a {
   font-size: 1.6rem;
   line-height: 1.4;
 }
-.container {
-  max-width: 100%;
-  margin: 0 auto;
-}
-@media ( max-width: 500px ) {
-  .container {
-    max-width: 450px;
-  }
-}
 nav {
   display: flex;
   flex-direction: column;
@@ -180,11 +171,6 @@ nav {
 nav h1 {
   font-size: 3.6rem;
 }
-@media ( max-width: 500px ) {
-  nav {
-    width: 80%;
-  }
-}
 nav .navBar {
   display: flex;
   justify-content: space-between;
@@ -193,7 +179,7 @@ nav .navBar {
 }
 @media ( max-width: 500px ) {
   nav .navBar {
-    width: 5%;
+    width: 100%;
   }
 }
 nav .navBar a {
@@ -230,6 +216,11 @@ nav .navBar a {
 }
 .home .intro .earth {
   max-width: 100%;
+}
+@media ( max-width: 500px ) {
+  .home .intro .earth {
+    max-width: 80%;
+  }
 }
 .home .intro .liftOff {
   width: 80%;
