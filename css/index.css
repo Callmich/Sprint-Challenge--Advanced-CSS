@@ -248,11 +248,15 @@ footer {
   font-size: 1.5rem;
   color: white;
 }
-.home .walk .walk-img {
+.home .walk .walk-text .btn:hover {
+  background-color: red;
+  color: #454A59;
+}
+.home .walk .walk-text .walk-img {
   width: 46%;
   margin-left: 4%;
 }
-.home .walk .walk-img img {
+.home .walk .walk-text .walk-img img {
   width: 100%;
   height: auto;
   border-radius: 10px;
